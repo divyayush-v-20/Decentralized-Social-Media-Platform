@@ -1,0 +1,82 @@
+{
+    "version": "0.1.0",
+    "name": "decentralized_social_media",
+    "instructions": [
+      {
+        "name": "createPost",
+        "accounts": [
+          {
+            "name": "post",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "author",
+            "isMut": true,
+            "isSigner": true
+          },
+          {
+            "name": "systemProgram",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "content",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "likePost",
+        "accounts": [
+          {
+            "name": "post",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "user",
+            "isMut": false,
+            "isSigner": true
+          }
+        ],
+        "args": []
+      },
+      {
+        "name": "addComment",
+        "accounts": [
+          {
+            "name": "comment",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "post",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "author",
+            "isMut": true,
+            "isSigner": true
+          },
+          {
+            "name": "systemProgram",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "content",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "address": "11111111111111111111111111111111"
+    }
+  }
