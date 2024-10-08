@@ -41,7 +41,7 @@ npm start
 ```
 solana --version
 ```
-2. Connect to the Solana devnet (or testnet if preferred):
+2. Connect to Solana devnet (or testnet if preferred):
 
 ```
 solana config set --url https://api.devnet.solana.com
