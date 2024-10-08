@@ -15,7 +15,7 @@ This project is a decentralized social media platform built on the Solana blockc
 ## Setup Instructions
 
 ### Prerequisites
-Make sure you have the following installed:
+Make sure you have the following installed on your device:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)
